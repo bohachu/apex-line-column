@@ -2,7 +2,8 @@ var str_src=''
 
 class ApexLineColumn extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<h1>Cameo Motion apex-line-column</h1>
+    this.innerHTML = `
+    <h1>Cameo Motion apex-line-column</h1>
     <div id="chart"></div>`;
     str_src=this.getAttribute('src');
   }
